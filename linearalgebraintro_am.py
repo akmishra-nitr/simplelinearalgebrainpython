@@ -1,4 +1,8 @@
 # linearalgebraintro_am.py
+
+## Revision: 1.2
+## Date: 03.03.2019
+
 import numpy as np
 # NumPy is the fundamental package for scientific computing with Python.
 # It contains -
@@ -11,12 +15,22 @@ import numpy as np
 print('Hello World! Welcome to this introduction to linear algebra in Python.\n')
 
 ### Vectors ###
-# A vector is an array of similar data types.
-# A = [1.0, 2.0, 3.0]
+# A vector is an array of numbers.
+# A = [1, 2, 3]
 
-A = np.array([1, 2, 3]) # We use numpy module to intialize array
+A = np.array([1, 2, 3]) # We use NumPy module to intialize array.
 
-print("A vector is an array of similar data types.\nFor example - A: " + str(A) + "\n")
+### Matrices ###
+# A matrix is a 2D array of similar numbers.
+# M = [[ 1, 2, 3],[4, 5, 6]]
+
+# NumPy has a matrix function. However, as per official documentation, it will be removed in the future
+M = np.array([(1, 2, 3),(4, 5, 6)]) 
+
+print('Vector')
+print('A vector is an array of numbers.\nFor example - A: ' + str(A) + '\n')
+print('Matrix')
+print('A matrix is a 2D array of numbers.\nFor example - M: ' + str(M) + '\n')
 
 print('Reference:')
 print('----------')
