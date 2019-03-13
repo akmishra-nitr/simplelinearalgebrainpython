@@ -1,12 +1,12 @@
 # linearalgebraintro_am.py
 
-## Revision:	1.0
-## Date:		10.03.2019 
+## Revision:	1.1
+## Date:		13.03.2019 
 
 import numpy as np
 from numpy import pi
 
-print('Hello World! Welcome to this exercise on arithmetic operations in Python.\n')
+print('Hello World! Welcome to this exercise on arithmetic operations on matrices in Python.\n')
 
 
 x = 3
