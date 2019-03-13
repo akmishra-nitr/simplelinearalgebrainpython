@@ -1,10 +1,9 @@
-# linearalgebraintro_am.py
+# matrixoperations_am.py
 
 ## Revision:	1.1
 ## Date:		13.03.2019 
 
 import numpy as np
-from numpy import pi
 
 print('Hello World! Welcome to this exercise on arithmetic operations on matrices in Python.\n')
 
